@@ -3,3 +3,26 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+   /*  background-image: url(../assets/bg.jpeg); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+.taskbar{
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    background-color: #f3f3f3;
+}
+.taskbar img{
+    cursor: pointer;
+    margin: 7px 0;
+}
+.right{
+    position: absolute;
+    right: 0;
+    overflow: hidden;
+}
