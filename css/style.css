@@ -16,7 +16,22 @@ body{
     width: 100%;
     justify-content: center;
     background-color: #f3f3f3;
+    z-index: 10px;    
+
 }
+.startmanu{
+    position: absolute;
+    width: 100%;
+    /* bottom: 54px; */
+    bottom: -600px;
+    text-align: center;
+    transition: all 0.3s ease-in;
+}
+.startmanu img {
+border-radius: 8px;
+
+}
+
 .taskbar img{
     cursor: pointer;
     margin: 7px 0;
@@ -26,3 +41,16 @@ body{
     right: 0;
     overflow: hidden;
 }
+.recycle{
+    position: absolute;
+    width: 100%;
+    left: 94%;
+    margin: 20px 0;
+
+}
+.recycle img{
+    width: 5%;
+    z-index: 112px;
+    cursor: pointer;
+}
+
